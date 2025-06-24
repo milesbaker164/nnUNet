@@ -1,0 +1,3 @@
+[submodule "nnUNETdata-"]
+	path = nnUNETdata-
+	url = https://github.com/milesbaker164/nnUNETdata-
