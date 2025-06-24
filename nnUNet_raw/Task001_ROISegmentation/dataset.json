@@ -1,0 +1,20 @@
+{
+    "name": "ROI Dataset",
+    "description": "Converted ROI segmentation dataset",
+    "reference": "None",
+    "licence": "None",
+    "release": "1.0",
+    "tensorImageSize": "4D",
+    "modality": {
+        "0": "CT"
+    },
+    "labels": {
+        "0": "background",
+        "1": "roi"
+    },
+    "task": "Task001_ROISegmentation",
+    "numTraining": 0,
+    "numTest": 0,
+    "training": [],
+    "test": []
+}
