@@ -1,0 +1,22 @@
+{
+    "name": "ROI Dataset",
+    "description": "ROI segmentation dataset",
+    "reference": "None",
+    "licence": "None",
+    "release": "1.0",
+    "task": "Task001_ROISegmentation",
+    "tensorImageSize": "4D",
+    "modality": { "0": "CT" },
+    "labels": { "0": "background", "1": "ROI" },
+    "numTraining": 1,
+    "numTest": 0,
+    "training": [
+        { "image": "./imagesTr/case_0000.nii.gz", "label": "./labelsTr/case_0000.nii.gz" }
+    ],
+    "test": [],
+    "channel_names": {
+        "0": "T1"
+    },
+    "file_ending": ".nii.gz"
+}
+
